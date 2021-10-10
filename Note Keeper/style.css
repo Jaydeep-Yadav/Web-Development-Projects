@@ -1,0 +1,45 @@
+*{
+    user-select: none;
+}
+
+.note{
+    user-select: auto;
+}
+body{
+    background: url(bg.jpg) fixed;
+}
+.container{
+
+    margin-top: 100px;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1;
+}
+.container h1 {
+    color: white;
+}
+
+#footer{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+.fab:hover{
+    color: var(--primary);
+}
+.fab{
+      color:white;
+      margin-left: 10px;
+  }
